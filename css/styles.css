@@ -13,15 +13,12 @@ hr{
 }
 
 h1{
-    color: #3FA796;
-    font-size: 5rem;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: normal;
-    line-height: 0.5;
-    margin: 50px auto 0 auto;
+    color: white;
+    font-size: 7rem;
 }
 
 h2{
+    color: white;
     font-size: 2rem;
     font-weight: normal;
 }
@@ -53,9 +50,28 @@ a:hover{
 }
 
 .principal_box{
-    background-color: #D1CDDA;
-    padding: 20px;
-    height: 100%;
+    background-image: linear-gradient(100deg, #ff9bea 0, #ff8ee6 16.67%, #f17ee0 33.33%, #d86cd8 50%, #bd5bd0 66.67%, #a44ecb 83.33%, #8b47c8 100%);
+    height: 100vh;
+}
+
+.glassmorphism_card{
+    /* Glassmorphism */
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 40px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    position:relative;
+    -webkit-backdrop-filter: blur(10px);
+    /* Size */
+    height: 15rem;
+    width: 35rem;
+    /* Center the div */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
 }
 
 .docker{
@@ -115,6 +131,9 @@ a:hover{
 
 /******************ID SELECTORS******************/
 /*irrepetible*/
-
-
- 
+#title{
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'The Nautigal', cursive;
+    margin-top: 15%;
+    line-height: 0.1rem;
+}
