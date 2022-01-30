@@ -64,7 +64,7 @@ a:hover{
     -webkit-backdrop-filter: blur(10px);
     /* Size */
     height: 15rem;
-    width: 35rem;
+    width: 40rem;
     /* Center the div */
     position: absolute;
     left: 50%;
@@ -132,8 +132,14 @@ a:hover{
 /******************ID SELECTORS******************/
 /*irrepetible*/
 #title{
-    font-family: 'Neonderthaw', cursive;
-    font-family: 'The Nautigal', cursive;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0rem;
     margin-top: 15%;
-    line-height: 0.1rem;
+    font-size: 5rem;
+}
+
+#suit_pic{
+    float: left;
+    border-radius: 16px;
+    height: 15rem;
 }
